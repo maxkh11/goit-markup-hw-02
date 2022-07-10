@@ -48,12 +48,12 @@
     <main>
       <section>
         <h1 hidden>Навигация</h1>
-        <button type="button" class="portfolio-first-button">Все</button>
-        <button type="button" class="portfolio-first-button">Веб-сайты</button>
-        <button type="button" class="portfolio-first-button">Приложения</button>
-        <button type="button" class="portfolio-first-button">Дизайн</button>
-        <button type="button" class="portfolio-first-button">Маркетинг</button>
-        <ul>
+        <button type="button" class="portfolio-button">Все</button>
+        <button type="button" class="portfolio-button">Веб-сайты</button>
+        <button type="button" class="portfolio-button">Приложения</button>
+        <button type="button" class="portfolio-button">Дизайн</button>
+        <button type="button" class="portfolio-button">Маркетинг</button>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio/website.jpg"
@@ -61,48 +61,56 @@
               width="370"
               height="294"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="description-work">Технокряк</h2>
+            <p class="task-types">Веб-сайт</p>
           </li>
           <li>
             <img
               src="./images/portfolio/design.jpg"
-              alt="website"
+              alt="design"
               width="370"
               height="294"
             />
-            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-            <p>Дизайн</p>
+            <h2 class="description-work">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h2>
+            <p class="task-types">Дизайн</p>
           </li>
           <li>
             <img
               src="./images/portfolio/app.jpg"
-              alt="website"
+              alt="app"
               width="370"
               height="294"
             />
-            <h2>Ресторан <span lang="en">Seafood</span></h2>
-            <p>Приложение</p>
+            <h2 class="description-work">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="task-types">Приложение</p>
           </li>
           <li>
             <img
               src="./images/portfolio/marketing.jpg"
-              alt="website"
+              alt="marketing"
               width="370"
               height="294"
             />
-            <h2>Проект <span lang="en">Prime</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="description-work">
+              Проект <span lang="en">Prime</span>
+            </h2>
+            <p class="task-types">Маркетинг</p>
           </li>
           <li>
             <img
               src="./images/portfolio/second-app.jpg"
-              alt="website"
+              alt="app"
               width="370"
               height="294"
             />
-            <h2>Проект <span lang="en">Boxes</span></h2>
-            <p>Приложение</p>
+            <h2 class="description-work">
+              Проект <span lang="en">Boxes</span>
+            </h2>
+            <p class="task-types">Приложение</p>
           </li>
           <li>
             <img
@@ -111,49 +119,63 @@
               width="370"
               height="294"
             />
-            <h2 lang="en">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 lang="en" class="description-work">
+              Inspiration has no Borders
+            </h2>
+            <p class="task-types">Веб-сайт</p>
           </li>
           <li>
             <img
               src="./images/portfolio/second-design.jpg"
-              alt="website"
+              alt="design"
               width="370"
               height="294"
             />
-            <h2>Издание <span lang="en">Limited Edition</span></h2>
-            <p>Дизайн</p>
+            <h2 class="description-work">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
+            <p class="task-types">Дизайн</p>
           </li>
           <li>
             <img
               src="./images/portfolio/second-marketing.jpg"
-              alt="website"
+              alt="marketing"
               width="370"
               height="294"
             />
-            <h2>Проект <span lang="en">LAB</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="description-work">Проект <span lang="en">LAB</span></h2>
+            <p class="task-types">Маркетинг</p>
           </li>
           <li>
             <img
               src="./images/portfolio/third-app.jpg"
-              alt="website"
+              alt="app"
               width="370"
               height="294"
             />
-            <h2 lang="en">Growing Business</h2>
-            <p>Приложение</p>
+            <h2 lang="en" class="description-work">Growing Business</h2>
+            <p class="task-types">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
+    <footer class="background-footer">
+      <a class="logo link" href="/"
+        >Web<span class="second-part-logo-footer">Studio</span></a
+      >
       <address>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="list">
+          <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+          <li>
+            <a class="link mail-address footer" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="link phone-number footer" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
