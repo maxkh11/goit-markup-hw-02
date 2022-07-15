@@ -13,7 +13,7 @@
   --background-second-color: #2f303a;
 }
 
-.current {
+.menu-link.current {
   color: var(--accent-color);
 }
 
@@ -53,7 +53,7 @@ body {
   color: var(--second-accent-color);
 }
 
-.menu-link .current {
+.menu-link {
   color: var(--second-accent-color);
 }
 
